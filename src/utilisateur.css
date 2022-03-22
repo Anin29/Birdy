@@ -1,0 +1,112 @@
+body{
+    margin : 0px;
+}
+
+header {
+    min-height : 150px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  rgb(248, 193, 109);
+}
+
+img{
+    height : 150px;
+    width : 200px;
+    border-radius:20px;
+}
+
+.rechercher{
+    align-self:center;
+    text-align: center;
+    width: 50%;
+}
+#barre_r{
+    min-width: 100px;
+    width : 50%;
+}
+
+.liens{
+    align-self:center;
+    text-align: center;
+    width : 20%;
+    height: 30%;
+    background-color: rgb(180, 218, 253);
+    border-radius: 10px / 10px;
+    display : block;
+}
+a:link{
+    color : black;
+}
+a:visited{
+    color : rgb(100, 100, 100);
+}
+
+.corps{
+    background-image: url("https://img.freepik.com/photos-gratuite/fond-aquarelle-peint-main-forme-ciel-nuages_24972-1095.jpg?size=626&ext=jpg&ga=GA1.1.1484483330.1643414400");
+    background-size: contain;
+    height : auto;
+    display : flex;
+}
+.liste_contacts{
+    text-align: center;
+    background-color: rgba(180, 218, 253, 0.73);
+    min-width: 100px;
+    width : 25%;
+}
+ul{
+    text-align: start;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    color: rgb(255, 0, 0);
+}
+
+.profil{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    width : 85%;
+}
+.titre_page{
+    width: 50%;
+    display : flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1{
+    text-decoration: underline;
+}
+#ajout_contact,#bouton_rech{
+    background: linear-gradient(white,gray);
+}
+#ajout_contact{
+    height : 40px;
+}
+
+.liste_comm{
+    width : 85%;
+    height : auto;
+    text-align: center;
+}
+
+.comm{
+    text-align: left;
+    padding: 3px;
+    background-color: bisque;
+}
+#ut{
+    display: inline;
+}
+p:nth-child(3){
+    border: solid;
+    border-width: 1px;
+    border-style: dashed;
+    border-radius: 10px / 10px;
+    width : 99%;
+}

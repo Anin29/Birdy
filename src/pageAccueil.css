@@ -1,0 +1,129 @@
+/*************** bandeau supérieur du site ***************/
+.pageAccueilHeader {
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    background: linear-gradient(rgb(243, 205, 81),white);
+
+    min-height : 150px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.recherche_container{
+    align-self:center;
+    text-align: center;
+    width: 50%;
+    height : 50%;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.filtres{
+    text-align: left;
+}
+
+.barreBoutonTri{
+    width : 90%;
+    min-height : 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.barreBouton{
+    display : flex;
+    justify-content: space-between;
+}
+
+#barre_r{
+    min-width: 100px;
+    width : 70%;
+}
+#bouton_rech{
+    width : 30%;
+}
+
+.boutonsHeader{
+    text-align: center;
+}
+
+/*-------------------------------------------------------CORPS---------------------------------------------------------*/
+
+.corps {
+    margin-top: 200px;
+    background: linear-gradient(white,rgb(159, 201, 246));
+    background-attachment: fixed;
+    background-position: top 200px right 0px;
+    display: flex;
+    height: calc(100vh - 200px);
+}
+
+.stats, .liste_contacts {
+    border-right: solid;
+    border-right-color: grey;
+    border-right-width: 2px;
+    border-right-style: dotted;
+    min-width: 100px;
+    width: 300px;
+    overflow-x: hidden;
+}
+
+.commentaire {
+    text-align: center;
+    justify-content: center;
+    width: 85%;
+    overflow-y: scroll;
+}
+
+.nv_comm{
+    text-align: center;
+    height : auto;
+}
+
+    .nv_comm textarea{
+        resize: none;
+        outline: none;
+        width : 80%;
+        height : auto;
+        min-width : 300px;
+        min-height : 100px;
+    }
+
+#bouton_ajout{
+    width: 50px;
+}
+
+
+.liste_comm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content : center;
+}
+
+.comm{
+    width : 85%;
+    text-align: left;
+    padding: 3px;
+}
+
+.box_comm {
+    padding: 5px;
+    background: linear-gradient(rgb(159, 201, 246), white);
+    border-radius: 20px 20px;
+    box-shadow: 5px 5px 10px /*rgb(150, 200, 255)*/;
+}
+
+#ut{
+    display: inline;
+}
+.comm p:nth-child(3){
+    border-radius: 10px / 10px;
+    background-color: white;
+}
