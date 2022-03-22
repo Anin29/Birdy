@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import UtilisateurCommentaire from './UtilisateurCommentaire'
 import HeaderAccueil from './HeaderAccueil'
-import './utilisateur.css'
 
 class Utilisateur extends Component {
     constructor(props) {
