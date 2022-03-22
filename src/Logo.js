@@ -13,7 +13,7 @@ class Logo extends Component {
     render() {
         return (
             <div onClick = {this.main}>
-                <img className="logo" src={logo} alt="logo" />
+                
             </div>
         )
     }
