@@ -15,7 +15,7 @@ class Connexion extends Component {
         return (
             <div className="divConnexion">
                 <header className="connexionHeader">
-                    <img className="logo" src={logo} alt="logo"/>
+                    
                     <div className="connexionEcriture">
                         <h1>Bienvenue !</h1>
                         <p><i>Remplissez-le formulaire ci-dessous pour vous connecter :</i></p>
