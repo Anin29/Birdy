@@ -1,0 +1,72 @@
+body, button{
+    font-family: Florence, cursive;
+}
+
+.divConnexion {
+    height: 100vh;
+    background: linear-gradient(white,rgb(159, 201, 246));
+}
+
+/*------------------------------------------HEADER-------------------------------------*/
+
+.logo {
+    height : 200px;
+    width: 200px;
+}
+
+.connexionEcriture{
+    text-align: center;
+}
+
+    .connexionEcriture h1 {
+        color: rgb(109, 201, 246);
+    }
+
+/* form est le container des boutons et input */
+
+.connexionForm {
+    text-align: center;
+    background-image: url("encadrement.png");
+    background-size: 100% 100%;
+    padding: 5px;
+    width: 600px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* partie label et input (partie supérieure du cadre) */
+
+.connexionPartieUn{
+    align-self: center;
+    width : 80%;
+}
+
+    .connexionPartieUn label {
+        padding: 10px;
+        display: inline-block;
+        width: 40%;
+        text-align: left;
+    }
+
+    .connexionPartieUn input {
+        width: 50%;
+    }
+
+/* partie boutons (partie inférieure du cadre) */
+
+.connexionBoutons {
+    width: 80%;
+    align-self: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+    .connexionBoutons button {
+        box-shadow: 1px 2px 5px;
+        background: linear-gradient(white,rgb(109, 201, 246));
+        font-family: Florence, cursive;
+    }
