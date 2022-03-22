@@ -1,0 +1,61 @@
+.divEnregistrement {
+    height: 100vh;
+    background: linear-gradient(white,rgb(255, 216, 100));
+}
+
+/*------------------------------------------HEADER-------------------------------------*/
+
+.enregistrementEcriture{
+    text-align: center;
+}
+
+    .enregistrementEcriture h1 {
+        color: rgb(255, 216, 0);
+    }
+
+/* form est le container des boutons et input */
+.enregistrementForm {
+    text-align: center;
+    background-image: url("encadrement.png");
+    background-size: 100% 100%;
+    width: 600px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.enregistrementNoms {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.enregistrementPartie2 {
+    padding: 10px;
+}
+
+    .enregistrementPartie2 label {
+        display: inline-block;
+        width: 25%;
+        text-align: left;
+    }
+
+    .enregistrementPartie2 input {
+        width: 60%;
+    }
+
+.enregistrementBoutons {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+    .enregistrementBoutons button {
+        box-shadow: 1px 2px 5px;
+        background: linear-gradient(white,rgb(255, 216, 0));
+        font-family: Florence, cursive;
+    }
