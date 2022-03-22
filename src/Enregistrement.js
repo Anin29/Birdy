@@ -20,7 +20,6 @@ class Enregistrement extends Component{
         return (
             <div className="divEnregistrement">
                 <header>
-                    <img className="logo" src={logo} alt="logo"/>
                     <div className="enregistrementEcriture">
                         <h1>Enregistrement</h1>
                         <p><i>Veuillez remplir le formulaire ci-dessous pour vous inscrire :</i></p>
